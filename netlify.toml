@@ -1,0 +1,7 @@
+[build]
+  # Dòng này báo cho Netlify biết thư mục chứa các functions của bạn
+  functions = "netlify/functions"
+  
+  # Dòng này chỉ định thư mục sẽ được publish làm website, 
+  # thường là thư mục gốc "." nếu bạn chỉ có file index.html
+  publish = "."
