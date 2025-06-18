@@ -80,4 +80,4 @@ export async function handler(event, context) {
       body: JSON.stringify({ message: 'Lỗi khi giao tiếp với máy chủ Google Script: ' + error.message }),
     };
   }
-}
+} 
